@@ -9,7 +9,7 @@ However, it's support doesn't end there; by default it integrates with the torch
 dispatcher, inheriting it's backend
 [support matrix](https://docs.pytorch.org/docs/stable/backends.html). Moreover,
 it supports the execution of
-[AOTInductor](https://github.com/pytorch/pytorch/blob/main/docs/source/torch.compiler_aot_inductor.rst)-lowered
+[AOTInductor](https://github.com/pytorch/pytorch/blob/main/docs/source/torch.compiler_aot_inductor.md)-lowered
 artifacts, and can be extended to support other delegate backends as seen fit.
 
 This document is intended to provide an overview of the foundational NativeRT
